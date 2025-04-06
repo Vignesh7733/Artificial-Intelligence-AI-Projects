@@ -1,16 +1,15 @@
 ## Project Name
-Age Category Prediction 
+Next Word Prediction
 ## Tool
 Jupyter Notebook  
 ## Programming Language
 Python
-## Techniques 
-sequential model, Conv2D, Maxpooling2D, Flatten Layer, and Dense Layer
+## Techniques
+Sequential model, Embedding Layer, LSTM Layer, and Dense Layer
 ## Libraries Used
-TensorFlow, Keras, Numpy, Pandas
+TensorFlow, Keras, Numpy
 ## Evaluation Metrics
 Accuracy
 
-
 ## Project Description
-This project aims to classify individuals into age categories (YOUNG, MIDDLE, OLD) using a CNN based deep learning model. The dataset consists of images labeled with age categories, and the goal is to train a model to predict these categories accurately. The workflow includes data preprocessing, image loading, label encoding, dataset splitting, and preparation for model training.
+This project focuses on building a deep learning model using Long Short Term Memory (LSTM) networks to predict the next word in a sequence of text. The model is trained on a dataset containing text from a file ("IndiaUS.txt"). The goal is to develop a language model that can understand context and generate meaningful next-word predictions.
